@@ -8,7 +8,7 @@ namespace BubbleSort
          public static void Bubble_Sort(int[] anArray)
          {
              //Выводим элементы массива (массив в исходном виде), исключительно диагностический вывод информации
-             PrintArray(anArray);
+             PrintArray(anArray); 
  
              //Основной цикл (количество повторений равно количеству элементов массива)
              for (int i = 0; i < anArray.Length; i++)
