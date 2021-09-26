@@ -15,7 +15,7 @@ namespace BubbleSort
                      {
                          Swap(ref anArray[j], ref anArray[j + 1]);
                      }
-                 }
+                 } 
                  PrintArray(anArray);
             }
         }
